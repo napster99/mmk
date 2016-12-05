@@ -1,0 +1,13 @@
+[
+  {
+    "name": "node_proxy_master",
+    "script": "app.js",
+    "env": {
+      "APP_ENV": "master",
+      "PORT" : "3111"
+    },
+    "cwd": "/data/www/node_monkey_proxy",
+    "one_launch_only": "true",
+    "max_memory_restart": "500M"
+  }
+] 

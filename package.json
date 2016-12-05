@@ -1,0 +1,40 @@
+{
+  "name": "node_proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "co-body": "^4.2.0",
+    "crypto": "0.0.3",
+    "istanbul": "^0.4.5",
+    "koa": "^1.2.1",
+    "koa-bodyparser": "^2.2.0",
+    "koa-gzip": "^0.1.0",
+    "koa-jsonp": "^2.0.2",
+    "koa-route": "^2.4.2",
+    "koa-static": "^2.0.0",
+    "mysql": "^2.11.1",
+    "netbuffer": "0.0.11",
+    "redis": "^2.6.2",
+    "request": "^2.74.0",
+    "supertest": "^2.0.0",
+    "underscore": "^1.8.3"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "co": "^4.6.0",
+    "crypto": "0.0.3",
+    "getmac": "^1.2.1",
+    "koa-bodyparser": "^2.2.0",
+    "koa-gzip": "^0.1.0",
+    "koa-jsonp": "^2.0.2",
+    "netbuffer": "0.0.11",
+    "redis": "^2.6.2",
+    "request": "^2.74.0"
+  }
+}
