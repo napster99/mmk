@@ -32,10 +32,6 @@ let sendQRRouter = router.get('/main/auth/send_code', function* sendQR() {
   console.log('send_code1', send_code)
 
 
-  //FOR ME
-  // if (mobile == '13958111541' || mobile == '13735804961' || mobile == '15858287803') {
-    // send_code = 1111;
-  // }
 
   //检测是否存在账号
   let result = yield mysqlInstance.checkUserLogin(mobile);
